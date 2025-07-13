@@ -1,9 +1,29 @@
-import '~/js/data/home.js';
 import './HomeSection.scss';
-
 import { Facebook, Github, Zalo } from '~/assets/logo';
+import BoxCount from './BoxCount';
+
 import defaultAvatar from '~/assets/images/origin-avatar.jpg';
 import defaultAvatar2 from '~/assets/images/avatar.jpeg';
+
+import { name, job, description } from '~/configs/userConfig';
+
+function AnimationJob() {
+    return (
+        <div id="animation-job">
+            <div className="job_drow1 hightlight-job-color"></div>
+            <div className="job_drow2 hightlight-job-color"></div>
+            <div className="job_drow3 hightlight-job-color"></div>
+            <div className="job_drow4 hightlight-job-color"></div>
+            <div className="job_drow5 hightlight-job-color"></div>
+            <div className="job_drow6 hightlight-job-color"></div>
+            <div className="job_drow7 hightlight-job-color"></div>
+            <div className="job_drow8 hightlight-job-color"></div>
+            <div className="job_drow9 hightlight-job-color"></div>
+            <div className="job_drow10 hightlight-job-color"></div>
+            <div className="job_drow11 hightlight-job-color"></div>
+        </div>
+    );
+}
 
 function HomeSection() {
     return (
@@ -11,65 +31,32 @@ function HomeSection() {
             <div id="head-decorate"></div>
             <div id="head-content">
                 <div id="count">
-                    <div className="box-count">
-                        <p className="title-count">
-                            <span>Total</span>
-                            <span className="value-count" id="total-visit">
-                                0
-                            </span>
-                            <span>Visits</span>
-                        </p>
-                    </div>
-
-                    <div className="box-count">
-                        <p className="title-count">
-                            <span>Total</span>
-                            <span className="value-count" id="total-engagement">
-                                0
-                            </span>
-                            <span>Engagements</span>
-                        </p>
-                    </div>
+                    <BoxCount value={0} type={'Visits'} id={'total-visit'} />
+                    <BoxCount value={0} type={'Engagements'} id={'total-engagement'} />
                 </div>
 
                 <div id="introduce-text">
                     <p className="hi text-hello">
-                        {/* <p className="hi text-hello fa-bounce" style="--fa-animation-duration: 1s;"> */}
                         <span className="fa-beat">Hello !</span>
                     </p>
                     <p className="intro text-intro text-main">
                         I'm
-                        <span id="name">Tran Vu Bao</span>.
+                        <span id="name">{name}</span>.
                     </p>
                     <p className="intro text-intro text-main">
-                        a<span id="job">Professional Dev </span>
+                        a<span id="job">{job}</span>
                     </p>
 
-                    <div id="animation-job">
-                        <div className="job_drow1 hightlight-job-color"></div>
-                        <div className="job_drow2 hightlight-job-color"></div>
-                        <div className="job_drow3 hightlight-job-color"></div>
-                        <div className="job_drow4 hightlight-job-color"></div>
-                        <div className="job_drow5 hightlight-job-color"></div>
-                        <div className="job_drow6 hightlight-job-color"></div>
-                        <div className="job_drow7 hightlight-job-color"></div>
-                        <div className="job_drow8 hightlight-job-color"></div>
-                        <div className="job_drow9 hightlight-job-color"></div>
-                        <div className="job_drow10 hightlight-job-color"></div>
-                        <div className="job_drow11 hightlight-job-color"></div>
-                    </div>
+                    <AnimationJob />
 
                     <p id="description" className="des text-des text-main">
-                        I'm a passionate developer who loves solving complex problems and turning ideas into reality.
-                        With expertise in multiple programming languages and a strong focus on innovation, I strive to
-                        build efficient and scalable solutions that make an impact.
+                        {description}
                     </p>
 
                     <div className="follow-container">
                         <p className="des text-des text-main">Follow Me</p>
 
                         {/* https://icons8.com/icon/DrWXvmB9ORxE/zalo */}
-
                         <a href="https://www.facebook.com/VStorm.TVB" className="element-icon" target="_blank">
                             <Facebook />
                         </a>
