@@ -1,0 +1,102 @@
+import '~/js/data/home.js';
+import './HomeSection.scss';
+
+import { Facebook, Github, Zalo } from '~/assets/logo';
+import defaultAvatar from '~/assets/images/origin-avatar.jpg';
+import defaultAvatar2 from '~/assets/images/avatar.jpeg';
+
+function HomeSection() {
+    return (
+        <section id="home">
+            <div id="head-decorate"></div>
+            <div id="head-content">
+                <div id="count">
+                    <div className="box-count">
+                        <p className="title-count">
+                            <span>Total</span>
+                            <span className="value-count" id="total-visit">
+                                0
+                            </span>
+                            <span>Visits</span>
+                        </p>
+                    </div>
+
+                    <div className="box-count">
+                        <p className="title-count">
+                            <span>Total</span>
+                            <span className="value-count" id="total-engagement">
+                                0
+                            </span>
+                            <span>Engagements</span>
+                        </p>
+                    </div>
+                </div>
+
+                <div id="introduce-text">
+                    <p className="hi text-hello">
+                        {/* <p className="hi text-hello fa-bounce" style="--fa-animation-duration: 1s;"> */}
+                        <span className="fa-beat">Hello !</span>
+                    </p>
+                    <p className="intro text-intro text-main">
+                        I'm
+                        <span id="name">Tran Vu Bao</span>.
+                    </p>
+                    <p className="intro text-intro text-main">
+                        a<span id="job">Professional Dev </span>
+                    </p>
+
+                    <div id="animation-job">
+                        <div className="job_drow1 hightlight-job-color"></div>
+                        <div className="job_drow2 hightlight-job-color"></div>
+                        <div className="job_drow3 hightlight-job-color"></div>
+                        <div className="job_drow4 hightlight-job-color"></div>
+                        <div className="job_drow5 hightlight-job-color"></div>
+                        <div className="job_drow6 hightlight-job-color"></div>
+                        <div className="job_drow7 hightlight-job-color"></div>
+                        <div className="job_drow8 hightlight-job-color"></div>
+                        <div className="job_drow9 hightlight-job-color"></div>
+                        <div className="job_drow10 hightlight-job-color"></div>
+                        <div className="job_drow11 hightlight-job-color"></div>
+                    </div>
+
+                    <p id="description" className="des text-des text-main">
+                        I'm a passionate developer who loves solving complex problems and turning ideas into reality.
+                        With expertise in multiple programming languages and a strong focus on innovation, I strive to
+                        build efficient and scalable solutions that make an impact.
+                    </p>
+
+                    <div className="follow-container">
+                        <p className="des text-des text-main">Follow Me</p>
+
+                        {/* https://icons8.com/icon/DrWXvmB9ORxE/zalo */}
+
+                        <a href="https://www.facebook.com/VStorm.TVB" className="element-icon" target="_blank">
+                            <Facebook />
+                        </a>
+                        <a href="https://github.com/BaoVStorm" className="element-icon" target="_blank">
+                            <Github />
+                        </a>
+                        <a href="https://zalo.me/0915014470" className="element-icon" target="_blank">
+                            <Zalo />
+                        </a>
+                    </div>
+                </div>
+                <div className="avatar-container">
+                    <div className="dot-pattern"></div>
+                    <div id="introduce-avatar">
+                        <img
+                            onError={(e) => {
+                                e.target.onerror = null;
+                                e.target.src = defaultAvatar;
+                            }}
+                            src={defaultAvatar}
+                            alt="avatar"
+                        />
+                    </div>
+                </div>
+            </div>
+        </section>
+    );
+}
+
+export default HomeSection;

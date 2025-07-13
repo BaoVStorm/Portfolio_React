@@ -4,13 +4,13 @@ import styles from './Header.scss';
 
 const cx = classNames.bind(styles);
 
-function SubHeader({ id, longContent, shortContent }) {
+function SubHeader({ id, longContent, shortContent, activeSection }) {
     {
         /* <li className="subnemu highlight-submenu"> */
     }
 
     return (
-        <li className={cx('subnemu')}>
+        <li className={cx('subnemu', { 'highlight-submenu': id === activeSection })}>
             <a href={`#${id}`}>
                 <span className={cx('long-show-header')}>{longContent}</span>
                 <span className={cx('short-show-header')}>{shortContent}</span>

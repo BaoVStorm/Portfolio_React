@@ -1,12 +1,26 @@
 import Header from '~/layouts/components/Header';
 import BoxBar from '~/layouts/components/BoxBar';
+import { GlobalHeaderProvider, useGlobalHeaderContext } from '~/contexts/GlobalHeaderContext';
+
+import HomeSection from './HomeSection';
+import AboutSection from './AboutSection';
+// import SkillsSection from './SkillsSection';
+
 
 function MainLayout() {
     return (
         <>
-            <Header />
-            <BoxBar />
-            <h3>MainLayout</h3>
+            <GlobalHeaderProvider>
+                <Header />
+                <BoxBar />
+            </GlobalHeaderProvider>
+
+            {/* Section */}
+
+            <HomeSection />
+            <AboutSection />
+            {/* <AboutSection /> */}
+            {/* <SkillsSection /> */}
         </>
     );
 }

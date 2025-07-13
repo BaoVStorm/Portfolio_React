@@ -1,13 +1,16 @@
 import classNames from 'classnames/bind';
+import { useGlobalHeaderContext } from '~/contexts/GlobalHeaderContext';
 
 import styles from './BoxBar.scss';
 
 const cx = classNames.bind(styles);
 
 function BoxBar() {
+    const { isMenuOpen, setIsMenuOpen } = useGlobalHeaderContext();
+
     return (
         <div className={cx('box-bar')}>
-            <div className={cx('menu-bar')}>
+            <div className={cx('menu-bar')} onClick={() => setIsMenuOpen(!isMenuOpen)}>
                 <i className="fa-solid fa-bars"></i>
             </div>
 

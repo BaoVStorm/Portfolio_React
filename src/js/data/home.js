@@ -1,7 +1,6 @@
 // let avatar = "assets/images/avatar.jpeg";
 let link = {
     "fb": "https://www.facebook.com/VStorm.TVB/",
-    
 }
 
 
