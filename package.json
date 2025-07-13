@@ -1,7 +1,7 @@
 {
     "name": "portfolio",
     "version": "0.1.0",
-    "homepage": "https://username.github.io/Portfolio_React",
+    "homepage": "https://username.github.io/Portfolio_React/docs",
     "private": true,
     "dependencies": {
         "@testing-library/dom": "^10.4.0",
