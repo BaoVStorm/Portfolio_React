@@ -4,11 +4,10 @@ import { useEffect, useState } from 'react';
 
 import styles from './Header.scss';
 import './AnimationHeader.scss';
-
 import SubHeader from './SubHeader';
-import VS_logo from '~/assets/logo/VS_logo.png';
 
 import subHeaders from '~/configs/subHeaderConfig';
+import LogoHeader from './LogoHeader';
 
 const cx = classNames.bind(styles);
 
@@ -42,14 +41,7 @@ function Header() {
 
     return (
         <header id={cx('header')} className={cx({ 'close-header': isMenuOpen })}>
-            <div id={cx('logo')} className={cx('header-content')}>
-                <div className={cx('subnemu')}>
-                    {/* VStorm */}
-                    <div id={cx('logo-header')}>
-                        <img src={VS_logo} alt="logo" />
-                    </div>
-                </div>
-            </div>
+            <LogoHeader />
 
             <ul id={cx('menu')} className={cx('header-content')}>
                 {subHeaders.map((subHeader, index) => (
