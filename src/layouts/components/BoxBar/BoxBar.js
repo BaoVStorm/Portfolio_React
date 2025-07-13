@@ -1,6 +1,6 @@
 import classNames from 'classnames/bind';
 
-import styles from './BoxBar.module.scss';
+import styles from './BoxBar.scss';
 
 const cx = classNames.bind(styles);
 

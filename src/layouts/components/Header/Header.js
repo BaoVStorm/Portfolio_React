@@ -1,43 +1,12 @@
 import classNames from 'classnames/bind';
 
-import styles from './Header.module.scss';
+import styles from './Header.scss';
 import SubHeader from './SubHeader';
 import VS_logo from '~/assets/logo/VS_logo.png';
 
-const cx = classNames.bind(styles);
+import subHeaders from '~/configs/subHeaderConfig';
 
-const subHeaders = [
-    {
-        id: 'home',
-        longContent: 'home',
-        shortContent: 'short',
-    },
-    {
-        id: 'about',
-        longContent: 'about',
-        shortContent: 'abt',
-    },
-    {
-        id: 'skills',
-        longContent: 'skills',
-        shortContent: 'sk',
-    },
-    {
-        id: 'projects',
-        longContent: 'projects',
-        shortContent: 'prj',
-    },
-    {
-        id: 'experience',
-        longContent: 'experience',
-        shortContent: 'exp',
-    },
-    {
-        id: 'contact',
-        longContent: 'contact',
-        shortContent: 'cnt',
-    },
-];
+const cx = classNames.bind(styles);
 
 function Header() {
     return (
