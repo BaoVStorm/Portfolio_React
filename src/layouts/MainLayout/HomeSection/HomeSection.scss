@@ -41,6 +41,10 @@ body {
             background-color: rgba(228, 228, 228, 0.767);
         }
 
+.text-main {
+    color: var(--text-color);
+}
+        
 .text-main.light {
     color: var(--text-color) !important;
 }
@@ -185,6 +189,7 @@ body {
             #introduce-text .hi {
                 font-size: 30px;
                 margin-bottom: 10px;
+                color: #47474786;
             }
 
                 .hi.light {
@@ -252,7 +257,7 @@ body {
             #introduce-text .des {
                 /* font-weight: bold; */
                 font-size: 20px;
-                /* color: rgb(80, 80, 80); */
+                color: var(--text-color);
                 /* color: color-mix(in srgb, var(--main-color) 50%, rgb(250, 250, 250) 50%); */
             }
             

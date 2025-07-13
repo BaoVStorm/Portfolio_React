@@ -2,65 +2,7 @@ import { Fragment } from 'react';
 
 import './AboutSection.scss';
 
-const GPA = '3.6x';
-
-const aboutInfos = [
-    {
-        name: 'name',
-        value: 'Tran Vu Bao',
-    },
-    {
-        name: 'birthday',
-        value: '27. 11. 2004.',
-    },
-    {
-        name: 'email',
-        value: 'tranvubao2004@gmail.com',
-    },
-    {
-        name: 'phone',
-        value: '(+84)915014470',
-    },
-    {
-        name: 'location',
-        value: 'Viet Nam, Quang Ngai',
-    },
-    {
-        name: 'interests',
-        value: 'Games, Code, Music',
-    },
-    {
-        name: 'interests',
-        value: 'Games, Code, Music',
-    },
-];
-
-const achievements = [
-    {
-        name: 'awards',
-        value: 19,
-    },
-    {
-        name: 'xp years',
-        value: '0+',
-    },
-    {
-        name: 'projects',
-        value: 10,
-    },
-    {
-        name: 'gpa',
-        value: GPA,
-    },
-];
-
-const title_about = {
-    title: 'Passionate Developer & Innovator',
-    content:
-        'I am always looking for ways to optimize and develop software to deliver the best user experience. With over a year of hands-on experience in personal projects and coding competitions, I constantly strive to learn and improve my skills.',
-};
-
-const url_cv = 'https://drive.google.com/file/d/1r6y_HA7CEfGvXZrtEGg5j2vPDdVZyWIo/view?usp=sharing';
+import { GPA, aboutInfos, achievements, title_about, url_cv } from '~/configs/About';
 
 function AboutSection() {
     return (

@@ -6,7 +6,7 @@ import styles from './Header.scss';
 import './AnimationHeader.scss';
 import SubHeader from './SubHeader';
 
-import subHeaders from '~/configs/subHeaderConfig';
+import subHeaders from '~/configs/Header/subHeaderConfig';
 import LogoHeader from './LogoHeader';
 
 const cx = classNames.bind(styles);
