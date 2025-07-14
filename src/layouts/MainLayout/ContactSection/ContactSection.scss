@@ -17,7 +17,7 @@
 
     .detail-box-contact{
         min-width: 520px;
-        /* height: 700px; */
+        height: 760px;
         display: flex;
         flex-direction: column;
         /* padding: 20px; */
@@ -95,7 +95,7 @@
         form.detail-box-contact input, form.detail-box-contact textarea{
             all: unset;
             z-index: 1;
-            margin-top: 15px;
+            margin-top: 16px;
             margin-bottom: 40px;
             font-family: "Poppins", serif;
             font-size: var(--main-font-size);
@@ -308,7 +308,7 @@
                     text-transform: uppercase;
                     color: #2c2c2c3b;
                     font-size: 17px;
-                    margin-top: 15px;
+                    margin-top: 16px;
                     position: absolute;
                     top:0px;
                 }
@@ -376,19 +376,19 @@
                                 color: #d1d1d1;
                             }
 
-                        div.body-content-contact i{
+                        div.body-content-contact svg{
                             font-size: 32px;
                             width: 32px;
                             text-align: center;
                         }
 
-                        div.body-content-contact i:hover{
+                        div.body-content-contact svg:hover{
                             font-size: 36px;
                             color: var(--main-color);
                         }
-                            .box-contact.light div.body-content-contact i:hover {
+                            .box-contact.light div.body-content-contact svg:hover {
                                 color: var(--main-color);
                             }
-                            .box-contact.dark div.body-content-contact i:hover {
+                            .box-contact.dark div.body-content-contact svg:hover {
                                 color: var(--main-color-dark);
                             }

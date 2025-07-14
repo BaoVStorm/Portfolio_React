@@ -8,6 +8,7 @@ import SkillsSection from './SkillsSection';
 import ProjectsSection from './ProjectsSection';
 import ExperienceSection from './ExperienceSection';
 import ContactSection from './ContactSection';
+import Footer from '../components/Footer';
 
 function MainLayout() {
     return (
@@ -27,7 +28,7 @@ function MainLayout() {
             <ContactSection />
 
             {/* Footer */}
-            
+            <Footer />
         </>
     );
 }

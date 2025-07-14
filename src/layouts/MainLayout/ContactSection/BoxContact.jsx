@@ -38,19 +38,13 @@ function BoxContact() {
                     <h3 class="head-content-contact">my social</h3>
                     <div class="body-content-contact">
                         <a href="https://www.facebook.com/VStorm.TVB" target="_blank">
-                            <i>
-                                <FontAwesomeIcon icon={faSquareFacebook} />
-                            </i>
+                            <FontAwesomeIcon icon={faSquareFacebook} />
                         </a>
                         <a href="https://www.instagram.com/I_Dont_Have_Instagram:>" target="_blank">
-                            <i>
-                                <FontAwesomeIcon icon={faSquareInstagram} />
-                            </i>
+                            <FontAwesomeIcon icon={faSquareInstagram} />
                         </a>
                         <a href="" target="_blank">
-                            <i>
-                                <FontAwesomeIcon icon={faSquareGithub} />
-                            </i>
+                            <FontAwesomeIcon icon={faSquareGithub} />
                         </a>
                     </div>
                 </div>
@@ -58,9 +52,7 @@ function BoxContact() {
                     <h3 class="head-content-contact">call me</h3>
                     <div class="body-content-contact">
                         <a href="https://join.skype.com/invite/qHxc9or0fsDI" target="_blank">
-                            <i>
-                                <FontAwesomeIcon icon={faSkype}/>
-                            </i>
+                            <FontAwesomeIcon icon={faSkype}/>
                         </a>
                     </div>
                 </div>
