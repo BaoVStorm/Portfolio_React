@@ -1,4 +1,3 @@
-
 /* footer */
 #footer {
     font-family: "Poppins", serif;
@@ -21,9 +20,13 @@
     }
 
     #footer p {
+        display: flex;
+        gap: 4px;
+        justify-content: center;
+        text-align: center;
+
         flex-grow: 1;
         height: 20px;
-        text-align: center;
         margin: 14px;
     }
 
@@ -48,10 +51,10 @@
         transition: color 0.25s;
     }
 
-        #footer.light a:hover {
+        .hightlight-footer:hover {
             color: color-mix(in srgb, var(--main-color) 80%, rgb(92, 92, 92) 20%);
         }
-        #footer.dark a:hover {
+        .hightlight-footer:hover {
             color: color-mix(in srgb, var(--main-color-dark) 80%, rgb(214, 214, 214) 20%);
         }
 

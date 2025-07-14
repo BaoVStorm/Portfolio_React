@@ -11,15 +11,15 @@ function Footer() {
                 <span>
                     <FontAwesomeIcon icon={faCopyright} />
                 </span>
+                <span>2025</span>
                 <span>
-                    2025
                     <span class="hightlight-footer">VStorm | TranVuBao</span>. All rights reserved.
                 </span>
             </p>
             <p>
                 <span class="hightlight-footer">95%</span>
-                <span>hand-crafted</span>,<span class="hightlight-footer">5%</span>
-                <span>AI-assisted</span>.
+                <span>hand-crafted,</span><span class="hightlight-footer">5%</span>
+                <span>AI-assisted.</span>
             </p>
             <p>
                 The design was inspired by a template from
