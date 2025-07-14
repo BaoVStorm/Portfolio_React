@@ -27,8 +27,7 @@ function Header() {
 
                 if (bottom - height / 2 > windowPos && windowPos >= top - 300) {
                     setActiveSection(section.id);
-                    console.log(section.id);
-                } 
+                }
             });
         };
 
