@@ -1,0 +1,27 @@
+body,
+.App,
+#name,
+.dot-pattern,
+.hi,
+.text-main,
+.background-main,
+.avatar-container,
+#introduce-avatar,
+.about-achie-box-content,
+.percent-nonslider-skill,
+.nonslider-skill-detail,
+.title-section,
+.elementor-spacer-inner,
+.detail-box-project,
+.box-contact,
+#footer,
+.menu-bar,
+#job,
+#animation-job,
+#count {
+    transition: color 0.5s, background-color 0.5s, border-color 0.5s;
+}
+
+#header {
+    transition: color 0.5s, background-color 0.5s, border-color 0.5s, left 0.6s;
+}

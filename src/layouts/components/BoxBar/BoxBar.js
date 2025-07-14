@@ -1,3 +1,4 @@
+import { useState } from 'react';
 import classNames from 'classnames/bind';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars } from '@fortawesome/free-solid-svg-icons';
@@ -9,6 +10,7 @@ const cx = classNames.bind(styles);
 
 function BoxBar() {
     const { isMenuOpen, setIsMenuOpen } = useGlobalHeaderContext();
+    const [themeLight, setThemeLight] = useState(true);
 
     return (
         <div className={cx('box-bar')}>
@@ -16,9 +18,12 @@ function BoxBar() {
                 <FontAwesomeIcon className={cx('menu-icon')} icon={faBars} />
             </div>
 
-            <div className={cx('dark-light-bar', 'switch-light')}>
+            <div
+                className={cx('dark-light-bar', themeLight ? 'switch-light' : 'switch-dark')}
+                onClick={() => setThemeLight(!themeLight)}
+            >
                 <div className={cx('switch-padding')}>
-                    <div className={cx('switch-bar', 'switch-light')}>
+                    <div className={cx('switch-bar', themeLight ? 'switch-light' : 'switch-dark')}>
                         <div className={cx('switch-bar-dark')}></div>
                     </div>
                 </div>

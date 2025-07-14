@@ -3,7 +3,6 @@ import { useGlobalHeaderContext } from '~/contexts/GlobalHeaderContext';
 import { useEffect, useState } from 'react';
 
 import styles from './Header.scss';
-import './AnimationHeader.scss';
 import SubHeader from './SubHeader';
 
 import subHeaders from '~/configs/Header/subHeaderConfig';
