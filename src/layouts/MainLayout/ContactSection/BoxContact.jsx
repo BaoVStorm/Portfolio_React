@@ -1,18 +1,22 @@
+import cx from 'classnames';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPhone } from '@fortawesome/free-solid-svg-icons';
 import { faSkype, faSquareFacebook, faSquareGithub, faSquareInstagram } from '@fortawesome/free-brands-svg-icons';
+import { useThemeContext } from '~/contexts/ThemeContext';
 
 import logoVStorm from '~/assets/logo/logo.png';
 import './ContactSection.scss';
 
 function BoxContact() {
+    const { isLightTheme, setIsLightTheme } = useThemeContext();
+
     return (
         <div className="detail-box-contact">
             <div className="decorate-contact">
                 <FontAwesomeIcon icon={faPhone} />
             </div>
 
-            <div className="box1-contact text-main">i'll be glad to answer your questions!</div>
+            <div className={cx("box1-contact", "text-main", isLightTheme ? 'light' : 'dark')}>i'll be glad to answer your questions!</div>
 
             <div className="logo-contact">
                 <img src={logoVStorm} alt="logo" />

@@ -1,3 +1,5 @@
+import cx from 'classnames';
+
 import './HomeSection.scss';
 import './AnimationHome.scss';
 import { Facebook, Github, Zalo } from '~/assets/logo';
@@ -5,58 +7,46 @@ import BoxCount from './BoxCount';
 
 import defaultAvatar from '~/assets/images/origin-avatar.jpg';
 import defaultAvatar2 from '~/assets/images/avatar.jpeg';
-
+import AnimationJob from './AnimationJob';
 import { name, job, description } from '~/configs/userConfig';
-
-function AnimationJob() {
-    return (
-        <div id="animation-job">
-            <div className="job_drow1 hightlight-job-color"></div>
-            <div className="job_drow2 hightlight-job-color"></div>
-            <div className="job_drow3 hightlight-job-color"></div>
-            <div className="job_drow4 hightlight-job-color"></div>
-            <div className="job_drow5 hightlight-job-color"></div>
-            <div className="job_drow6 hightlight-job-color"></div>
-            <div className="job_drow7 hightlight-job-color"></div>
-            <div className="job_drow8 hightlight-job-color"></div>
-            <div className="job_drow9 hightlight-job-color"></div>
-            <div className="job_drow10 hightlight-job-color"></div>
-            <div className="job_drow11 hightlight-job-color"></div>
-        </div>
-    );
-}
+import { useThemeContext } from '~/contexts/ThemeContext';
 
 function HomeSection() {
+    const { isLightTheme, setIsLightTheme } = useThemeContext();
+
     return (
         <section id="home">
             <div id="head-decorate"></div>
             <div id="head-content">
-                <div id="count">
+                <div id="count" className={cx(isLightTheme ? 'light' : 'dark')}>
                     <BoxCount value={0} type={'Visits'} id={'total-visit'} />
                     <BoxCount value={0} type={'Engagements'} id={'total-engagement'} />
                 </div>
 
                 <div id="introduce-text">
-                    <p className="hi text-hello">
+                    <p className={cx('hi', 'text-hello', isLightTheme ? 'light' : 'dark')}>
                         <span className="fa-beat">Hello !</span>
                     </p>
-                    <p className="intro text-intro text-main">
+                    <p className={cx('intro', 'text-intro', 'text-main', isLightTheme ? 'light' : 'dark')}>
                         {"I'm "}
-                        <span id="name">{name}</span>.
+                        <span id="name" className={cx(isLightTheme ? 'light' : 'dark')}>
+                            {name}
+                        </span>
+                        .
                     </p>
-                    <p className="intro text-intro text-main">
+                    <p className={cx('intro', 'text-intro', 'text-main', isLightTheme ? 'light' : 'dark')}>
                         {'a '}
-                        <span id="job">{job}</span>
+                        <span id="job" className={cx(isLightTheme ? 'light' : 'dark')}>{job}</span>
                     </p>
 
-                    <AnimationJob />
+                    <AnimationJob isLightTheme={isLightTheme}/>
 
-                    <p id="description" className="des text-des text-main">
+                    <p id="description" className={cx('des', 'text-des', 'text-main', isLightTheme ? 'light' : 'dark')}>
                         {description}
                     </p>
 
                     <div className="follow-container">
-                        <p className="des text-des text-main">Follow Me</p>
+                        <p className={cx('des', 'text-des', 'text-main', isLightTheme ? 'light' : 'dark')}>Follow Me</p>
 
                         {/* https://icons8.com/icon/DrWXvmB9ORxE/zalo */}
                         <a href="https://www.facebook.com/VStorm.TVB" className="element-icon" target="_blank">
@@ -70,9 +60,9 @@ function HomeSection() {
                         </a>
                     </div>
                 </div>
-                <div className="avatar-container">
-                    <div className="dot-pattern"></div>
-                    <div id="introduce-avatar">
+                <div className={cx('avatar-container', isLightTheme ? 'light' : 'dark')}>
+                    <div className={cx('dot-pattern', isLightTheme ? 'light' : 'dark')}></div>
+                    <div id="introduce-avatar" className={cx(isLightTheme ? 'light' : 'dark')}>
                         <img
                             onError={(e) => {
                                 e.target.onerror = null;

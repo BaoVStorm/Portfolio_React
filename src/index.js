@@ -4,12 +4,24 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 import GlobalStyles from '~/components/GlobalStyles';
+import { GlobalHeaderProvider } from '~/contexts/GlobalHeaderContext';
+import { ThemeProvider } from '~/contexts/ThemeContext';
+import AnimationStyles from '~/layouts/components/AnimationStyles';
+import ElementorStyles from '~/layouts/components/ElementorStyles';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
     <React.StrictMode>
         <GlobalStyles>
-            <App />
+            <ThemeProvider>
+                <AnimationStyles>
+                    <ElementorStyles>
+                        <GlobalHeaderProvider>
+                            <App />
+                        </GlobalHeaderProvider>
+                    </ElementorStyles>
+                </AnimationStyles>
+            </ThemeProvider>
         </GlobalStyles>
     </React.StrictMode>,
 );

@@ -1,11 +1,16 @@
+import cx from 'classnames';
+
+import { useThemeContext } from '~/contexts/ThemeContext';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCopyright } from '@fortawesome/free-regular-svg-icons';
 
 import './Footer.scss';
 
 function Footer() {
+    const { isLightTheme, setIsLightTheme } = useThemeContext();
+
     return (
-        <footer id="footer">
+        <footer id="footer" className={cx(isLightTheme ? 'light' : 'dark')}>
             <p>
                 <span>Copyright</span>
                 <span>

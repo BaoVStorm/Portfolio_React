@@ -124,11 +124,11 @@
             }
 
                 .hi.light {
-                    color: #47474786;
+                    color: #47474786 !important;
                 }
 
                 .hi.dark {
-                    color: #969696da;
+                    color: #969696da !important;
                 }
 
             #introduce-text .intro {
@@ -276,11 +276,11 @@
             top: -22px;
         }
             .avatar-container.light::after{
-                border-color: #d8d7d750;
+                border-color: #d8d7d750 !important;
             }
 
             .avatar-container.dark::after{
-                border-color: #57575759;
+                border-color: #57575759 !important;
             }
 
         .avatar-container::before {
@@ -295,11 +295,11 @@
             transform: rotate(45deg);
         }
             .avatar-container.light::before{
-                border-color: #fcf0ab50;
+                border-color: #fcf0ab50 !important;
             }
 
             .avatar-container.dark::before{
-                border-color: #84ff541a;
+                border-color: #84ff541a !important;
             }
 
         #introduce-avatar {

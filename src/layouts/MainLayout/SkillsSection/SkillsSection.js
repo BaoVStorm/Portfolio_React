@@ -3,6 +3,7 @@ import classNames from 'classnames/bind';
 import styles from './SkillsSection.scss';
 import BoxSkill from './BoxSkill';
 import { useCallback, useEffect, useState, useRef } from 'react';
+import { useThemeContext } from '~/contexts/ThemeContext';
 
 const cx = classNames.bind(styles);
 
@@ -46,6 +47,7 @@ const Skills = [
 function SkillsSection() {
     const skillRef = useRef(null);
     const [isVisible, setIsVisible] = useState(false);
+    const { isLightTheme, setIsLightTheme } = useThemeContext();
 
     // animation visible bar when scroll on
     useEffect(() => {
@@ -95,10 +97,10 @@ function SkillsSection() {
     return (
         <section id="skills" className="section">
             <div ref={skillRef} className="elementor-spacer-inner-background">
-                <div className="elementor-spacer-inner space2"></div>
+                <div className={cx('elementor-spacer-inner', 'space2', isLightTheme ? 'light' : 'dark')}></div>
             </div>
 
-            <h1 className="title-section">skills</h1>
+            <h1 className={cx('title-section', isLightTheme ? 'light' : 'dark')}>skills</h1>
 
             <div className="box-skill-1th">
                 <div className="head-box-skill">

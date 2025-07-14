@@ -5,12 +5,14 @@ import { useEffect, useState } from 'react';
 import styles from './Header.scss';
 import SubHeader from './SubHeader';
 
+import { useThemeContext } from '~/contexts/ThemeContext';
 import subHeaders from '~/configs/Header/subHeaderConfig';
 import LogoHeader from './LogoHeader';
 
 const cx = classNames.bind(styles);
 
 function Header() {
+    const { isLightTheme, setIsLightTheme } = useThemeContext();
     const { isMenuOpen, setIsMenuOpen } = useGlobalHeaderContext();
     const [activeSection, setActiveSection] = useState(null);
 
@@ -39,7 +41,7 @@ function Header() {
     }, []);
 
     return (
-        <header id={cx('header')} className={cx({ 'close-header': isMenuOpen })}>
+        <header id='header' className={cx({ 'close-header': isMenuOpen }, isLightTheme ? 'light' : 'dark')}>
             <LogoHeader />
 
             <ul id={cx('menu')} className={cx('header-content')}>

@@ -1,15 +1,19 @@
-import './ExperienceSection.scss';
+import cx from 'classnames';
 
+import './ExperienceSection.scss';
+import { useThemeContext } from '~/contexts/ThemeContext';
 import { experiences } from '~/configs/ExperiencesConfig';
 
 function ExperienceSection() {
+    const { isLightTheme, setIsLightTheme } = useThemeContext();
+
     return (
         <section id="experience" className="section">
             <div className="elementor-spacer-inner-background">
-                <div className="elementor-spacer-inner space3"></div>
+                <div className={cx('elementor-spacer-inner', 'space3', isLightTheme ? 'light' : 'dark')}></div>
             </div>
 
-            <h1 className="title-section">exp.</h1>
+            <h1 className={cx('title-section', isLightTheme ? 'light' : 'dark')}>exp.</h1>
             <div className="box-exp">
                 {experiences.map((experience, index) => (
                     <div key={index} className="detail-box-exp text-main light">

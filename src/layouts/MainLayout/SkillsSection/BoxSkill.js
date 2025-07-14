@@ -1,8 +1,10 @@
-import classNames from 'classnames';
+import cx from 'classnames';
 
+import { useThemeContext } from '~/contexts/ThemeContext';
 import { useRef, useEffect, useState } from 'react';
 
 function BoxSkill({ percent, skill, highPercent, isVisible = false }) {
+    const { isLightTheme, setIsLightTheme } = useThemeContext();
     const nonsliderRef = useRef(null);
     const [bgColor, setBgColor] = useState(null);
 
@@ -19,13 +21,17 @@ function BoxSkill({ percent, skill, highPercent, isVisible = false }) {
 
     return (
         <div className="detail-box-skill">
-            <span className="percent-nonslider-skill light">{percent}</span>
+            <span className={cx('percent-nonslider-skill', isLightTheme ? 'light' : 'dark')}>{percent}</span>
             <div className="content-box-skill">
-                <span className="name-detail-box-skill text-main">{skill}</span>
+                <span className={cx('name-detail-box-skill', 'text-main', isLightTheme ? 'light' : 'dark')}>
+                    {skill}
+                </span>
                 <div className="nonslider-skill">
                     <div
                         ref={nonsliderRef}
-                        className={classNames('nonslider-skill-detail', 'light', { 'start-nonslider': isVisible })}
+                        className={cx('nonslider-skill-detail', isLightTheme ? 'light' : 'dark', {
+                            'start-nonslider': isVisible,
+                        })}
                         style={{ width: `${percent}%`, backgroundColor: bgColor ? mixColor : false }}
                     ></div>
                 </div>
