@@ -8,6 +8,10 @@
     --main-font-size: 16px;
     --head-font-size: 22px;
 
+    // elementor Spacer
+    --elementor-spacer-inner-color: rgb(233, 233, 233);
+    --elementor-spacer-inner-color-dark: rgb(48, 48, 48);
+
     /* light theme */
     --text-job: #b86ee0fb;
     --shadow-job: rgba(111, 36, 151, 0.984);
@@ -89,3 +93,48 @@ body {
 .disable_img {
     opacity: 0;
 }
+
+
+// scroll bar
+
+body {
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+    background-color: var(--main-background-color);
+}
+    body.light {
+        background-color: var(--main-background-color);
+    }
+        
+
+    body.dark {
+        background-color: var(--main-background-color-dark);
+        transition: color 0.5s, background-color 0.5s, border-color 0.5s;
+    }
+
+    body::-webkit-scrollbar {
+        width: 12px;
+        transition: background-color 0.5s;
+    }
+        body.light::-webkit-scrollbar {
+            background-color: #e7e7e7;
+        }
+        
+        body.dark::-webkit-scrollbar {
+            background-color: #2c2c2c;
+        }
+    
+    body::-webkit-scrollbar-thumb {
+        border-radius: 23px;
+        transition: background-color 0.5s;
+    }
+        body.light::-webkit-scrollbar-thumb {
+            /* background-color: color-mix(in srgb, var(--main-color) 10%, rgb(36, 36, 36) 90%); */
+            background-color: rgb(36, 36, 36,  0.767);
+
+        }
+        body.dark::-webkit-scrollbar-thumb {
+            /* background-color: color-mix(in srgb, var(--main-color-dark) 10%, rgb(228, 228, 228) 90%); */
+            background-color: rgba(228, 228, 228, 0.767);
+        }

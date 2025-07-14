@@ -2,6 +2,7 @@ import Header from '~/layouts/components/Header';
 import BoxBar from '~/layouts/components/BoxBar';
 import { GlobalHeaderProvider, useGlobalHeaderContext } from '~/contexts/GlobalHeaderContext';
 
+import ElementorStyles from '../components/ElementorStyles';
 import HomeSection from './HomeSection';
 import AboutSection from './AboutSection';
 import SkillsSection from './SkillsSection';
@@ -12,7 +13,7 @@ import Footer from '~/layouts/components/Footer';
 
 function MainLayout() {
     return (
-        <>
+        <ElementorStyles>
             {/* Header */}
             <GlobalHeaderProvider>
                 <Header />
@@ -29,7 +30,7 @@ function MainLayout() {
 
             {/* Footer */}
             <Footer />
-        </>
+        </ElementorStyles>
     );
 }
 
