@@ -4,9 +4,9 @@ import BoxContact from './BoxContact';
 
 function ContactSection() {
     return (
-        <section id="contact" class="section">
-            <h1 class="title-section">contact</h1>
-            <div class="box-contact">
+        <section id="contact" className="section">
+            <h1 className="title-section">contact</h1>
+            <div className="box-contact">
                 <FormContact />
                 <BoxContact />
             </div>

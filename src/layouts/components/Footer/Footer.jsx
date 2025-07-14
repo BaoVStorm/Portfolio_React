@@ -13,17 +13,17 @@ function Footer() {
                 </span>
                 <span>2025</span>
                 <span>
-                    <span class="hightlight-footer">VStorm | TranVuBao</span>. All rights reserved.
+                    <span className="hightlight-footer">VStorm | TranVuBao</span>. All rights reserved.
                 </span>
             </p>
             <p>
-                <span class="hightlight-footer">95%</span>
-                <span>hand-crafted,</span><span class="hightlight-footer">5%</span>
+                <span className="hightlight-footer">95%</span>
+                <span>hand-crafted,</span><span className="hightlight-footer">5%</span>
                 <span>AI-assisted.</span>
             </p>
             <p>
                 The design was inspired by a template from
-                <a href="https://extact.com/" class="hightlight-footer" target="_blank">
+                <a href="https://extact.com/" className="hightlight-footer" target="_blank">
                     extact
                 </a>
             </p>

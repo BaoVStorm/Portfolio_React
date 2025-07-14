@@ -8,7 +8,7 @@ import SkillsSection from './SkillsSection';
 import ProjectsSection from './ProjectsSection';
 import ExperienceSection from './ExperienceSection';
 import ContactSection from './ContactSection';
-import Footer from '../components/Footer';
+import Footer from '~/layouts/components/Footer';
 
 function MainLayout() {
     return (

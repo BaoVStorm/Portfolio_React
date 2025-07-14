@@ -7,26 +7,26 @@ import './ContactSection.scss';
 
 function BoxContact() {
     return (
-        <div class="detail-box-contact">
-            <div class="decorate-contact">
+        <div className="detail-box-contact">
+            <div className="decorate-contact">
                 <FontAwesomeIcon icon={faPhone} />
             </div>
 
-            <div class="box1-contact text-main">i'll be glad to answer your questions!</div>
+            <div className="box1-contact text-main">i'll be glad to answer your questions!</div>
 
-            <div class="logo-contact">
+            <div className="logo-contact">
                 <img src={logoVStorm} alt="logo" />
             </div>
 
-            <div class="box2-contact">
-                <div class="content-contact">
-                    <h3 class="head-content-contact">my phone</h3>
-                    <h2 class="body-content-contact">0915014470</h2>
+            <div className="box2-contact">
+                <div className="content-contact">
+                    <h3 className="head-content-contact">my phone</h3>
+                    <h2 className="body-content-contact">0915014470</h2>
                 </div>
 
-                <div class="content-contact">
-                    <h3 class="head-content-contact">my email</h3>
-                    <h2 class="body-content-contact">
+                <div className="content-contact">
+                    <h3 className="head-content-contact">my email</h3>
+                    <h2 className="body-content-contact">
                         <p>
                             tranvubao2004<span>@</span>
                             <span>gmail.com</span>{' '}
@@ -34,9 +34,9 @@ function BoxContact() {
                     </h2>
                 </div>
 
-                <div class="content-contact">
-                    <h3 class="head-content-contact">my social</h3>
-                    <div class="body-content-contact">
+                <div className="content-contact">
+                    <h3 className="head-content-contact">my social</h3>
+                    <div className="body-content-contact">
                         <a href="https://www.facebook.com/VStorm.TVB" target="_blank">
                             <FontAwesomeIcon icon={faSquareFacebook} />
                         </a>
@@ -48,9 +48,9 @@ function BoxContact() {
                         </a>
                     </div>
                 </div>
-                <div class="content-contact">
-                    <h3 class="head-content-contact">call me</h3>
-                    <div class="body-content-contact">
+                <div className="content-contact">
+                    <h3 className="head-content-contact">call me</h3>
+                    <div className="body-content-contact">
                         <a href="https://join.skype.com/invite/qHxc9or0fsDI" target="_blank">
                             <FontAwesomeIcon icon={faSkype}/>
                         </a>
