@@ -1,6 +1,8 @@
 import classNames from 'classnames/bind';
-import { useGlobalHeaderContext } from '~/contexts/GlobalHeaderContext';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faBars } from '@fortawesome/free-solid-svg-icons';
 
+import { useGlobalHeaderContext } from '~/contexts/GlobalHeaderContext';
 import styles from './BoxBar.scss';
 
 const cx = classNames.bind(styles);
@@ -11,7 +13,7 @@ function BoxBar() {
     return (
         <div className={cx('box-bar')}>
             <div className={cx('menu-bar')} onClick={() => setIsMenuOpen(!isMenuOpen)}>
-                <i className="fa-solid fa-bars"></i>
+                <FontAwesomeIcon className={cx('menu-icon')} icon={faBars} />
             </div>
 
             <div className={cx('dark-light-bar', 'switch-light')}>

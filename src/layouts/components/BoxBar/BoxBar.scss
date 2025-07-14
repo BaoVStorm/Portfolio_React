@@ -26,11 +26,13 @@
             text-shadow:
                 2.5px 2px var(--main-color);
         }
-            .menu-bar.light:hover {
-                text-shadow: 2.5px 2px var(--main-color);
+            .menu-bar.light:hover .menu-icon{
+                // text-shadow: 2.5px 2px var(--main-color);
+                filter: drop-shadow(2.5px 2px var(--main-color));
             }
-            .menu-bar.dark:hover {
-                text-shadow: 2.5px 2px var(--main-color-dark);
+            .menu-bar.dark:hover .menu-icon{
+                // text-shadow: 2.5px 2px var(--main-color-dark);
+                filter: drop-shadow(2.5px 2px var(--main-color-dark));
             }
 
         /* .menu-bar.close-header {
