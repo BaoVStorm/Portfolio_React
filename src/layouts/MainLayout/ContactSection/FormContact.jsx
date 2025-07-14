@@ -1,5 +1,7 @@
-import './ContactSection.scss';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faInbox } from '@fortawesome/free-solid-svg-icons';
 
+import './ContactSection.scss';
 import { formContact } from '~/configs/FormKey';
 
 function FormContact() {
@@ -8,9 +10,7 @@ function FormContact() {
             <input type="hidden" name="access_key" value={formContact.access_key} />
 
             <div class="decorate-contact">
-                {/* <i class="fa-regular fa-envelope"></i> */}
-                {/* <i class="fa-solid fa-at"></i> */}
-                <i class="fa-solid fa-inbox"></i>
+                <FontAwesomeIcon icon={faInbox} />
             </div>
 
             <label for="name-contact">

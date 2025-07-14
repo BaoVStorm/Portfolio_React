@@ -7,24 +7,27 @@ import AboutSection from './AboutSection';
 import SkillsSection from './SkillsSection';
 import ProjectsSection from './ProjectsSection';
 import ExperienceSection from './ExperienceSection';
-// import ContactSection from './ContactSection';
+import ContactSection from './ContactSection';
 
 function MainLayout() {
     return (
         <>
+            {/* Header */}
             <GlobalHeaderProvider>
                 <Header />
                 <BoxBar />
             </GlobalHeaderProvider>
 
             {/* Section */}
-
             <HomeSection />
             <AboutSection />
             <SkillsSection />
             <ProjectsSection />
             <ExperienceSection />
-            {/* <ContactSection /> */}
+            <ContactSection />
+
+            {/* Footer */}
+            
         </>
     );
 }
