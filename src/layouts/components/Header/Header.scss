@@ -71,8 +71,11 @@
 }
 
 .subnemu {
-    padding: 10px 10px;
     position: relative;
+}
+
+.subnemu a{
+    padding: 10px 10px;
 }
 
 .subnemu:hover a {
@@ -131,7 +134,7 @@
     right: 4px;
     /* left: 0px;
             width: 100%; */
-    bottom: 5px;
+    bottom: -5px;
     height: 4px;
     border-radius: 20px;
     background-color: rgb(255, 196, 0);
