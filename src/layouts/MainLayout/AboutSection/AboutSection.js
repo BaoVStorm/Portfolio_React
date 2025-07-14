@@ -1,5 +1,3 @@
-import { Fragment } from 'react';
-
 import './AboutSection.scss';
 
 import { GPA, aboutInfos, achievements, title_about, url_cv } from '~/configs/About';

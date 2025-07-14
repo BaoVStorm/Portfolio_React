@@ -4,8 +4,8 @@ import { GlobalHeaderProvider, useGlobalHeaderContext } from '~/contexts/GlobalH
 
 import HomeSection from './HomeSection';
 import AboutSection from './AboutSection';
-// import SkillsSection from './SkillsSection';
-
+import SkillsSection from './SkillsSection';
+import ProjectsSection from './ProjectsSection';
 
 function MainLayout() {
     return (
@@ -19,8 +19,8 @@ function MainLayout() {
 
             <HomeSection />
             <AboutSection />
-            {/* <AboutSection /> */}
-            {/* <SkillsSection /> */}
+            <SkillsSection />
+            <ProjectsSection />
         </>
     );
 }

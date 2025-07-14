@@ -23,11 +23,12 @@ function Header() {
             document.querySelectorAll('section').forEach((section) => {
                 const top = section.offsetTop;
                 const height = section.offsetHeight;
-                const bottom = height + top / 2;
+                const bottom = height + top;
 
-                if (bottom - height / 2 > windowPos && windowPos >= top - 200) {
+                if (bottom - height / 2 > windowPos && windowPos >= top - 300) {
                     setActiveSection(section.id);
-                }
+                    console.log(section.id);
+                } 
             });
         };
 

@@ -148,8 +148,9 @@
                         left: 0px;
                         height: 100%;
                         /* background-color: var(--main-color); */
-                        width: 0%;     
-                        transition: width 1s;
+                        width: 0;     
+                        transform-origin: 0 50%;
+                        transform: rotateY(90deg);
                     }
                         .nonslider-skill-detail.light {
                             background-color: var(--main-color);
@@ -159,5 +160,14 @@
                         }
 
                     .start-nonslider {
-                        width: 0% !important;
+                        animation: animateVisible 1s linear forwards;
+                    }
+
+                    @keyframes animateVisible {
+                        from {
+                            transform: rotateY(90deg);
+                        }
+                        to {
+                            transform: rotateY(0deg);
+                        }
                     }
