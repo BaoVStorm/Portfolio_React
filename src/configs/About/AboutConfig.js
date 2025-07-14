@@ -24,11 +24,7 @@ export const aboutInfos = [
     {
         name: 'interests',
         value: 'Games, Code, Music',
-    },
-    {
-        name: 'interests',
-        value: 'Games, Code, Music',
-    },
+    }
 ];
 
 export const achievements = [

@@ -40,11 +40,12 @@ function HomeSection() {
                         <span className="fa-beat">Hello !</span>
                     </p>
                     <p className="intro text-intro text-main">
-                        I'm
+                        {'I\'m '}
                         <span id="name">{name}</span>.
                     </p>
                     <p className="intro text-intro text-main">
-                        a<span id="job">{job}</span>
+                        {'a '}
+                        <span id="job">{job}</span>
                     </p>
 
                     <AnimationJob />
