@@ -25,9 +25,10 @@
 
 # 🛠 Công Nghệ Sử Dụng
 
+### 🎨 Frontend:
+
 <img  align="right" width="300" alt="3918927"  src="https://github.com/user-attachments/assets/c9dc90a0-d4c6-4b6b-9d0e-1dd28906c731" />
 
-### 🎨 Frontend:
   - **Framework**: NodeJS
   - **HTML** 📄
   - **CSS** 🎨
@@ -75,6 +76,10 @@ https://github.com/BaoVStorm/Portfolio_React.git
 3️⃣ **Host server**
 
 - npm start (chạy server)
+
+4️⃣ **(Optional) Host server optimize**
+
+- npm run build (tạo optimize file 'build')
 
 # 📝 Giao diện
 
