@@ -12,8 +12,8 @@ import LogoHeader from './LogoHeader';
 const cx = classNames.bind(styles);
 
 function Header() {
-    const { isLightTheme, setIsLightTheme } = useThemeContext();
-    const { isMenuOpen, setIsMenuOpen } = useGlobalHeaderContext();
+    const { isLightTheme } = useThemeContext();
+    const { isMenuOpen } = useGlobalHeaderContext();
     const [activeSection, setActiveSection] = useState(null);
 
     // event scroll menu

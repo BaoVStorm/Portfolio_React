@@ -4,7 +4,7 @@ import { useThemeContext } from '~/contexts/ThemeContext';
 import { useRef, useEffect, useState } from 'react';
 
 function BoxSkill({ percent, skill, highPercent, isVisible = false }) {
-    const { isLightTheme, setIsLightTheme } = useThemeContext();
+    const { isLightTheme } = useThemeContext();
     const nonsliderRef = useRef(null);
     const [bgColor, setBgColor] = useState(null);
 

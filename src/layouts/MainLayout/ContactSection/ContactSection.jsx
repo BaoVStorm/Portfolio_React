@@ -6,7 +6,7 @@ import FormContact from './FormContact';
 import BoxContact from './BoxContact';
 
 function ContactSection() {
-    const { isLightTheme, setIsLightTheme } = useThemeContext();
+    const { isLightTheme } = useThemeContext();
 
     return (
         <section id="contact" className="section">

@@ -6,13 +6,13 @@ import { Facebook, Github, Zalo } from '~/assets/logo';
 import BoxCount from './BoxCount';
 
 import defaultAvatar from '~/assets/images/origin-avatar.jpg';
-import defaultAvatar2 from '~/assets/images/avatar.jpeg';
 import AnimationJob from './AnimationJob';
 import { name, job, description } from '~/configs/userConfig';
 import { useThemeContext } from '~/contexts/ThemeContext';
+// import defaultAvatar2 from '~/assets/images/avatar.jpeg';
 
 function HomeSection() {
-    const { isLightTheme, setIsLightTheme } = useThemeContext();
+    const { isLightTheme } = useThemeContext();
 
     return (
         <section id="home">

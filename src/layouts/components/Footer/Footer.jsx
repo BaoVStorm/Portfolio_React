@@ -7,7 +7,7 @@ import { faCopyright } from '@fortawesome/free-regular-svg-icons';
 import './Footer.scss';
 
 function Footer() {
-    const { isLightTheme, setIsLightTheme } = useThemeContext();
+    const { isLightTheme } = useThemeContext();
 
     return (
         <footer id="footer" className={cx(isLightTheme ? 'light' : 'dark')}>

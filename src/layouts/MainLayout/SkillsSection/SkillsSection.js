@@ -47,7 +47,7 @@ const Skills = [
 function SkillsSection() {
     const skillRef = useRef(null);
     const [isVisible, setIsVisible] = useState(false);
-    const { isLightTheme, setIsLightTheme } = useThemeContext();
+    const { isLightTheme } = useThemeContext();
 
     // animation visible bar when scroll on
     useEffect(() => {

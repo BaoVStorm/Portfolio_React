@@ -5,7 +5,7 @@ import './ProjectsSection.scss';
 import { projects } from '~/configs/ProjectsConfig';
 
 function ProjectsSection() {
-    const { isLightTheme, setIsLightTheme } = useThemeContext();
+    const { isLightTheme } = useThemeContext();
 
     return (
         <section id="projects" className="section">
