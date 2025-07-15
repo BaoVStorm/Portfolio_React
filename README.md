@@ -29,7 +29,7 @@
 - **HTML** 📄
 - **CSS** 🎨
 - **JavaScript** ⚡
-- **React Library**
+- **Library**
   - FontAwesome (icon)
   - className (tái cấu trúc class)
   - sass
