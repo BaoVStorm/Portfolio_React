@@ -58,8 +58,7 @@ Trang web này được xây dựng nhằm mục đích giới thiệu về bả
 
 <br/>
 
-
-# Hướng dẫn cài đặt & chạy
+# 🧑‍💻 Hướng dẫn cài đặt & chạy
 
 1️⃣ **Clone project**
 
@@ -81,6 +80,8 @@ https://github.com/BaoVStorm/Portfolio_React.git
 
 - npm run build (tạo optimize file 'build')
 
+<br/>
+
 # 📝 Giao diện
 
 ### - ABOUT
@@ -89,12 +90,15 @@ https://github.com/BaoVStorm/Portfolio_React.git
 
 ![image](https://github.com/user-attachments/assets/373188a2-2ee6-453a-8280-341855b3ea62)
 
+<br/>
+
 ### - SKILL
 > ✨ Kỹ năng bản thân
 >
 
 ![image](https://github.com/user-attachments/assets/cdcd445e-3a3c-4527-8d3d-3f79fbe3e779)
 
+<br/>
 
 ### - ORTHER
 > ✨ khác
