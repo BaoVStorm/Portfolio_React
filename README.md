@@ -1,6 +1,7 @@
 ![welcome](https://github.com/user-attachments/assets/5ec8996c-991e-4497-a785-a7b950a27589)
 
 <hr>
+<br/>
 
 # 🖇️ Host - Link
 
@@ -48,7 +49,9 @@
 # 📌 Mô Tả
 Trang web này được xây dựng nhằm mục đích giới thiệu về bản thân, trình bày kỹ năng và chia sẻ các dự án cá nhân. 
 
-<img width="500" alt="3918927"  src="https://github.com/user-attachments/assets/dfcbef73-53d5-44e7-bf85-f8978d1c09d6" />
+<div align="center">
+<img width="400" alt="3918927"  src="https://github.com/user-attachments/assets/dfcbef73-53d5-44e7-bf85-f8978d1c09d6" />
+</div>
 
 <br/>
 
