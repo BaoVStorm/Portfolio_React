@@ -63,22 +63,18 @@ Trang web này được xây dựng nhằm mục đích giới thiệu về bả
 1️⃣ **Clone project**
 
 ```bash
-git clone https://github.com/BaoVStorm/Astrolingo.git
+https://github.com/BaoVStorm/Portfolio_React.git
 ```
 
-2️⃣ **Mở project Android**
+2️⃣ **Mở code bằng IDE và tải package**
 
-- Mở bằng Android Studio
+- Mở IDE, như: VScode
 
-- Build & chạy trên thiết bị ảo hoặc thiết bị thật
+- npm install (cài package)
 
-3️⃣ **Chạy server Back-end**
+3️⃣ **Host server**
 
-- Sourse Code: https://github.com/BaoVStorm/Backend-nodejs-astrolingo-androidApp
-
-- NodeJs API + MongoDB
-
-- Deploy trên AWS EC2 (hoặc trên local)
+- npm start (chạy server)
 
 # 📝 Giao diện
 
