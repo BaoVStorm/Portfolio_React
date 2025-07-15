@@ -10,6 +10,8 @@
 
 🔗 Xem trực tiếp trang web qua link: https://baovstorm.github.io/Portfolio/
 
+<br/>
+
 # 🌟 Giới Thiệu
 
 👋 Chào mừng bạn đến với trang web giới thiệu bản thân của tôi! 🚀
@@ -22,31 +24,39 @@
 
 - Extact: Website giúp tôi có ý tưởng về template 
 
-## 🛠 Công Nghệ Sử Dụng
+<br/>
+
+# 🛠 Công Nghệ Sử Dụng
 
 ### 🎨 Frontend:
-- **Framework**: NodeJS
-- **HTML** 📄
-- **CSS** 🎨
-- **JavaScript** ⚡
-- **Library**
-  - FontAwesome (icon)
-  - className (tái cấu trúc class)
-  - sass
-  - create-react-app
-  - react-app-rewired
-  - customize-cra
-  - babel-plugin-module-resolver
+  - **Framework**: NodeJS
+  - **HTML** 📄
+  - **CSS** 🎨
+  - **JavaScript** ⚡
+  - **Library**
+    - FontAwesome (icon)
+    - className (tái cấu trúc class)
+    - sass
+    - create-react-app
+    - react-app-rewired
+    - customize-cra
+    - babel-plugin-module-resolver
    
 ### 🎒 Backend (basic - nosql):
-- **LocalStorage** (Lưu local)
-- **GoogleSheet** 📅 
-- **FireBase** 🔥
+  - **LocalStorage** (Lưu local)
+  - **GoogleSheet** 📅 
+  - **FireBase** 🔥
 
-## 📌 Mô Tả
+<br/>
+
+# 📌 Mô Tả
 Trang web này được xây dựng nhằm mục đích giới thiệu về bản thân, trình bày kỹ năng và chia sẻ các dự án cá nhân. 
 
 <img width="500" alt="3918927"  src="https://github.com/user-attachments/assets/dfcbef73-53d5-44e7-bf85-f8978d1c09d6" />
+
+<br/>
+
+# 📝 Giao diện
 
 ## ABOUT
 ![image](https://github.com/user-attachments/assets/373188a2-2ee6-453a-8280-341855b3ea62)
@@ -57,8 +67,9 @@ Trang web này được xây dựng nhằm mục đích giới thiệu về bả
 ## AND MORE..
 ![image](https://github.com/user-attachments/assets/4dd06a81-f3da-4bda-b21d-f1a3c20fc767)
 
+<br/>
 
-## 📬 Liên Hệ
+# 📬 Liên Hệ
 Bạn có thể kết nối với tôi qua các nền tảng sau:
 
 - 📧 Email: [tranvubao2004@gmail.com](mailto:tranvubao2004@gmail.com)
