@@ -8,29 +8,36 @@
 
 # 🖇️ Host - Link
 
-🔗 Bạn có thể xem trực tiếp trang web của tôi qua link sau: https://baovstorm.github.io/Portfolio/
+🔗 Xem trực tiếp trang web qua link: https://baovstorm.github.io/Portfolio/
 
 # 🌟 Giới Thiệu
 
 👋 Chào mừng bạn đến với trang web giới thiệu bản thân của tôi! 🚀
 
-### ©️ Trang Web này hoàn toàn được làm bởi tôi (không dựa vào nguồn code nào cả)
-
-🕛 Web này được tôi thực hiện trong khoảng 4-5 tuần.
-
+🕛 Thời gian thực hiện: 4-5 tuần.
 
 ### ⚙️ Công nghệ hỗ trợ:
 
-- ChatGPT: AI giúp tôi học thêm các thuộc tính mới trong css (không hỗ trợ code)
+- ChatGPT: AI giúp học thêm các thuộc tính mới trong css (không hỗ trợ code)
 
 - Extact: Website giúp tôi có ý tưởng về template 
 
 ## 🛠 Công Nghệ Sử Dụng
 
 ### 🎨 Frontend:
+- **Framework**: NodeJS
 - **HTML** 📄
-- **CSS** 🎨 (Sử dụng **Font Awesome** để hiển thị icon)
-- **JavaScript** ⚡ (Framework: **jQuery**)
+- **CSS** 🎨
+- **JavaScript** ⚡
+- **React Library**
+  - FontAwesome (icon)
+  - className (tái cấu trúc class)
+  - sass
+  - create-react-app
+  - react-app-rewired
+  - customize-cra
+  - babel-plugin-module-resolver
+   
 ### 🎒 Backend (basic - nosql):
 - **LocalStorage** (Lưu local)
 - **GoogleSheet** 📅 
