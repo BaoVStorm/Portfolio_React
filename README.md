@@ -25,6 +25,8 @@
 
 # 🛠 Công Nghệ Sử Dụng
 
+<img  align="right" width="350" alt="3918927"  src="https://github.com/user-attachments/assets/c9dc90a0-d4c6-4b6b-9d0e-1dd28906c731" />
+
 ### 🎨 Frontend:
   - **Framework**: NodeJS
   - **HTML** 📄
@@ -57,13 +59,23 @@ Trang web này được xây dựng nhằm mục đích giới thiệu về bả
 
 # 📝 Giao diện
 
-## ABOUT
+### - ABOUT
+> ✨ Thông tin cá nhân
+>
+
 ![image](https://github.com/user-attachments/assets/373188a2-2ee6-453a-8280-341855b3ea62)
 
-## SKILL
+### - SKILL
+> ✨ Kỹ năng bản thân
+>
+
 ![image](https://github.com/user-attachments/assets/cdcd445e-3a3c-4527-8d3d-3f79fbe3e779)
 
-## AND MORE..
+
+### - ORTHER
+> ✨ khác
+>
+
 ![image](https://github.com/user-attachments/assets/4dd06a81-f3da-4bda-b21d-f1a3c20fc767)
 
 <br/>
@@ -75,5 +87,8 @@ Bạn có thể kết nối với tôi qua các nền tảng sau:
 - 🔗 GitHub: [https://github.com/BaoVStorm](https://github.com/BaoVStorm)
 
 ---
-✨ Cảm ơn bạn đã ghé thăm! Hy vọng bạn sẽ thích trang web này. 😃
+
+<div align="center">
+  ✨ Cảm ơn đã ghé thăm! Hy vọng bạn sẽ thích trang web này. 😃
+</div>
 
