@@ -1,70 +1,62 @@
-# Getting Started with Create React App
+![welcome](https://github.com/user-attachments/assets/5ec8996c-991e-4497-a785-a7b950a27589)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h3 align="center">
+  đây là phần source về trang giới thiệu bản thân tôi
+</h3>
 
-## Available Scripts
+<hr>
 
-In the project directory, you can run:
+# 🖇️ Host - Link
 
-### `npm start`
+🔗 Bạn có thể xem trực tiếp trang web của tôi qua link sau: https://baovstorm.github.io/Portfolio/
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+# 🌟 Giới Thiệu
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+👋 Chào mừng bạn đến với trang web giới thiệu bản thân của tôi! 🚀
 
-### `npm test`
+### ©️ Trang Web này hoàn toàn được làm bởi tôi (không dựa vào nguồn code nào cả)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+🕛 Web này được tôi thực hiện trong khoảng 4-5 tuần.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### ⚙️ Công nghệ hỗ trợ:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- ChatGPT: AI giúp tôi học thêm các thuộc tính mới trong css (không hỗ trợ code)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Extact: Website giúp tôi có ý tưởng về template 
 
-### `npm run eject`
+## 🛠 Công Nghệ Sử Dụng
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### 🎨 Frontend:
+- **HTML** 📄
+- **CSS** 🎨 (Sử dụng **Font Awesome** để hiển thị icon)
+- **JavaScript** ⚡ (Framework: **jQuery**)
+### 🎒 Backend (basic - nosql):
+- **LocalStorage** (Lưu local)
+- **GoogleSheet** 📅 
+- **FireBase** 🔥
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 📌 Mô Tả
+Trang web này được xây dựng nhằm mục đích giới thiệu về bản thân, trình bày kỹ năng và chia sẻ các dự án cá nhân. 
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+<img width="500" alt="3918927"  src="https://github.com/user-attachments/assets/dfcbef73-53d5-44e7-bf85-f8978d1c09d6" />
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## ABOUT
+![image](https://github.com/user-attachments/assets/373188a2-2ee6-453a-8280-341855b3ea62)
 
-## Learn More
+## SKILL
+![image](https://github.com/user-attachments/assets/cdcd445e-3a3c-4527-8d3d-3f79fbe3e779)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## AND MORE..
+![image](https://github.com/user-attachments/assets/4dd06a81-f3da-4bda-b21d-f1a3c20fc767)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+## 📬 Liên Hệ
+Bạn có thể kết nối với tôi qua các nền tảng sau:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- 📧 Email: [tranvubao2004@gmail.com](mailto:tranvubao2004@gmail.com)
+- 🔗 GitHub: [https://github.com/BaoVStorm](https://github.com/BaoVStorm)
 
-### Analyzing the Bundle Size
+---
+✨ Cảm ơn bạn đã ghé thăm! Hy vọng bạn sẽ thích trang web này. 😃
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
